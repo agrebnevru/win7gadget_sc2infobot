@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>SC2Gad</name>
+  <namespace><!--_locComment_text="{Locked}"-->microsoft.windows</namespace>
+  <version><!--_locComment_text="{Locked}"-->1.0.0.0</version>
+   <author name="MyIE">
+    <logo src="logo.png" />
+  </author>
+ <copyright><!--_locComment_text="{Locked}"-->&#169; 20109 MyIE.</copyright>
+    <description>Гаджет для сайта sc2tv.ru, чтобы своевременно узнавать об изменениях в киберспорте.</description>
+  <icons>
+    <icon height="48" width="48" src="img/icons/icon_48.ico" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="html" apiVersion="1.0.0" src="index.htm" />
+      <permissions><!--_locComment_text="{Locked}"-->full</permissions>
+      <platform minPlatformVersion ="0.3"/>
+    </host>
+  </hosts>
+</gadget>
